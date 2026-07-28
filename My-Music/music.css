@@ -1,0 +1,25 @@
+.discography {
+  margin-left: 30px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.release {
+  flex: 1;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  max-width: 150px;
+}
+
+.titles {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.section {
+  float: left;
+  width: 50%;
+}

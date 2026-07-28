@@ -1,0 +1,30 @@
+.list{
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+
+.titles_and_blurb{
+    float: left;
+    width: 45%;
+}
+
+#editions{
+  font-size: 18px;
+}
+
+#blurb{
+  line-height: 27px;
+  overflow-wrap: break-word;
+  max-width: 400px;
+  margin-top: 25px;
+}
+
+#image{
+  float: right;
+  margin-right: 35px;
+}
+
+#credit{
+  color: grey;
+  text-align: right;
+}
