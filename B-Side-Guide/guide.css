@@ -1,49 +1,36 @@
-html {
-    height: 100%;
+.openingText {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
 }
 
-body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.discography {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
 }
 
-.tableContainer {
-    flex: 1;
-    display: flex;
-    align-items: center;
+.release {
+  flex: 1;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  max-width: 150px;
 }
 
-table {
-    flex: 1;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
+.title {
+    margin-top: 10px;
 }
 
-button {
-    background-color: #09003C;
-    color: white;
-    border: #09003C;
-    font-size: 25px;
-    text-align: left;
-    width: 100%;
-    border-radius: 10px;
-    text-indent: 2%;
-    margin-top: 15px;
+.section {
+  float: left;
+  width: 50%;
 }
 
 .artist {
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 12px;
     color: #C3C3C3;
-}
-
-button:hover {
-    background-color:#2b4cae;
-}
-
-.openingText {
-    margin-left: 5%;
-    margin-right: 5%;
 }
