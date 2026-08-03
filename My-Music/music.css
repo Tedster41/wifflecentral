@@ -12,7 +12,6 @@
   inline-size: 150px;
   overflow-wrap: break-word;
   max-width: 150px;
-  position: relative;
 }
 
 .titles {
@@ -23,20 +22,4 @@
 .section {
   float: left;
   width: 50%;
-}
-
-.cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  transition: transform 0.5s;
-}
-
-.release:hover .cover {
-  transform: translateX(-30px);
-}
-
-.vinyl {
-  top: 0;
 }
