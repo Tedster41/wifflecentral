@@ -1,0 +1,23 @@
+.tripleTracklist {
+    display: flex;
+    justify-content: center;
+}
+
+.doubleTracklist {
+    display: flex;
+    justify-content: center;
+}
+
+.tracklist {
+    width: 32%;
+    margin-right: 1%;
+}
+
+.dtracklist {
+    width: 48.5%;
+    margin-right: 1%;
+}
+
+.cd {
+    color: rgb(172, 172, 172);
+}
