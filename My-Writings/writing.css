@@ -1,11 +1,10 @@
-.list{
+.content{
     margin-left: 30px;
-    margin-top: 25px;
+    display: flex;
   }
 
 .titles_and_blurb{
-    float: left;
-    width: 45%;
+    margin-top: 25px;
 }
 
 #editions{
@@ -15,7 +14,6 @@
 #blurb{
   line-height: 27px;
   overflow-wrap: break-word;
-  max-width: 400px;
   margin-top: 25px;
 }
 
@@ -24,7 +22,17 @@
   margin-right: 35px;
 }
 
-#credit{
+.desc{
   color: grey;
   text-align: right;
+}
+
+#list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  color: grey;
+  margin-top: 10px;
+  row-gap: 0px;
 }
